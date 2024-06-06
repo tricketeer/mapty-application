@@ -1,0 +1,16 @@
+{
+  "name": "mapty-application",
+  "version": "1.0.0",
+  "description": "Workout map application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "George Edwards",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.37.1",
+    "parcel": "^2.12.0"
+  }
+}
